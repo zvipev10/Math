@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card"; // ודא ש-ui/card קיים ומיוצא נכון
+import { Card, CardContent } from "@/Components/ui/card"; // ודא ש-ui/card קיים ומיוצא נכון
 import { MathProgress } from "@/entities/MathProgress"; // ודא שהנתיב והייצוא נכונים
 // import { User } from "@/entities/User"; // User לא בשימוש כרגע
 
-import MathProblem from "@/components/MathProblem";
-import CategorySelector from "@/components/CategorySelector";
-import DifficultySelector from "@/components/DifficultySelector";
-import ProgressTracker from "@/components/ProgressTracker";
-import CelebrationModal from "@/components/CelebrationModal";
+import MathProblem from "@/Components/MathProblem";
+import CategorySelector from "@/Components/CategorySelector";
+import DifficultySelector from "@/Components/DifficultySelector";
+import ProgressTracker from "@/Components/ProgressTracker";
+import CelebrationModal from "@/Components/CelebrationModal";
 import { AnimatePresence, motion } from "framer-motion";
 
 
