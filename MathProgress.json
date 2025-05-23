@@ -1,0 +1,36 @@
+{
+  "name": "MathProgress",
+  "type": "object",
+  "properties": {
+    "operation": {
+      "type": "string",
+      "enum": [
+        "addition",
+        "subtraction"
+      ],
+      "description": "סוג התרגיל - חיבור או חיסור"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "hard"
+      ],
+      "description": "רמת קושי - קלה או קשה"
+    },
+    "correct_answers": {
+      "type": "number",
+      "description": "מספר התשובות הנכונות ברצף שהובילו להשלמת היעד (למשל 5)"
+    },
+    "total_solved": {
+      "type": "number",
+      "description": "סך כל התרגילים שנפתרו (או ניסו לפתור) בסשן שהוביל להשלמת היעד"
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "תאריך ושעת סיום התרגול (השלמת היעד)"
+    }
+  },
+  "required": ["operation", "difficulty", "correct_answers", "date"]
+}
