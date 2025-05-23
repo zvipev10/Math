@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import Layout from '@/Components/Layout';
 import '@/styles/globals.css'; // ייבוא הסגנונות הגלובליים
 
 // This default export is required in a new `pages/_app.js` file.
